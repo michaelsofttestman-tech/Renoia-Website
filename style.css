@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f1116;
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  background: #1a1d25;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  color: orange;
+}
+
+nav a {
+  color: white;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(#1a1d25, #0f1116);
+}
+
+.status {
+  margin-top: 10px;
+  color: lightgreen;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* CARD */
+.card {
+  background: #1c202a;
+  padding: 18px;
+  margin-top: 15px;
+  border-left: 4px solid orange;
+  border-radius: 8px;
+}
+
+/* EMERGENCY */
+.emergency {
+  background: darkred;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* NEWS SCROLL */
+.news-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.news-item {
+  background: #1c202a;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 4px solid orange;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1d25;
+  margin-top: 40px;
+}
+
+/* STEAM LINK */
+.steam {
+  color: #66c0f4;
+}
